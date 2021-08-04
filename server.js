@@ -16,4 +16,4 @@ const { PORT, DB_URI } = process.env;
   }
 })();
 
-app.listen(PORT, () => console.log('running on localhost:3001'));
+app.listen(PORT, () => console.log('running on localhost:' + PORT));
